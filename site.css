@@ -1,0 +1,66 @@
+
+nav{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0px auto;
+}
+#imgDetails{
+width: 45%;
+font-weight: 700;
+float: left;
+height: 18px;
+line-height: 18px;
+}
+#imgDetailsTable{
+    max-width: 300px;
+    margin: 10px 8px;
+    font-weight: 700;
+    display: none;
+    top: 106px;
+    right: 0px;
+    float: right;
+    position: absolute;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    
+    background: #efefef;
+    padding: 8px;
+    word-break: break-all;
+    text-align: left;
+    border: 1px solid #000;
+    min-width: 50px;
+  }
+
+.pointer{
+    background: #f44336;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.active{
+
+    display: none;
+    width: 150px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 15px;
+    top: 32px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    
+}
+.pointer:hover .active{
+    display: block;
+}
+
+.fileUploadContainer{
+    margin: 10px 0px;
+}
